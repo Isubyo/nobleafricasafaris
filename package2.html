@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our African Tours</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 3em;
+        }
+
+        header p {
+            font-size: 1.2em;
+        }
+
+        .trips {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 40px;
+            background-color: #f4f4f4;
+        }
+
+        .trip-item {
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            width: 30%;
+            margin: 20px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .trip-item img {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        .trip-item h3 {
+            font-size: 1.5em;
+            margin: 15px 0;
+        }
+
+        .trip-item p {
+            font-size: 1.1em;
+            margin: 10px 0;
+        }
+
+        .view-btn {
+            display: inline-block;
+            background-color: #008CBA;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+
+        .view-btn:hover {
+            background-color: #005f6b;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        footer .social-links a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+
+        footer .social-links a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="header-container">
+            <h1>Explore African Adventures</h1>
+            <p>Embark on an unforgettable safari or trekking experience across Africa</p>
+        </div>
+    </header>
+
+    <!-- Trip Listings -->
+    <section class="trips">
+        <div class="trip-item">
+            <img src="images/safari.jpg" alt="Safari Adventure">
+            <h3>Ultimate Safari Adventure</h3>
+            <p><strong>Destinations:</strong> Kenya, Tanzania</p>
+            <a href="#" class="view-btn">View Itinerary</a>
+        </div>
+
+        <div class="trip-item">
+            <img src="images/gorilla-trek.jpg" alt="Gorilla Trekking">
+            <h3>Gorilla Trekking Expedition</h3>
+            <p><strong>Destinations:</strong> Uganda, Rwanda</p>
+            <a href="#" class="view-btn">View Itinerary</a>
+        </div>
+
+        <div class="trip-item">
+            <img src="images/desert.jpg" alt="Desert Safari">
+            <h3>Namibian Desert Safari</h3>
+            <p><strong>Destinations:</strong> Namibia</p>
+            <a href="#" class="view-btn">View Itinerary</a>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2025 Gorille Africa Tours. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
